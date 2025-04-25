@@ -48,23 +48,7 @@ cd Raven-Test
    cd backend
    ```
 
-2. Create a `.env` file using the example provided:
-   ```bash
-   cp .env.example .env
-   ```
-
-3. Update `.env` with your database credentials:
-   ```env
-   PORT=3000
-   JWT_SECRET=your_super_secret
-   DB_HOST=localhost
-   DB_PORT=3306
-   DB_USERNAME=root
-   DB_PASSWORD=your_password
-   DB_NAME=raven_db
-   ```
-
-4. Install dependencies and run the server:
+2. Install dependencies and run the server:
    ```bash
    npm install
    npm run start:dev
